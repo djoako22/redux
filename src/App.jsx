@@ -21,7 +21,7 @@ function App() {
             <div className="navbar">
                 <h3>Redux</h3>
                 <button onClick={() => setShowCart(!showCart)}>
-                    Cart {cart.items.length}
+                    🛒 {cart.items.length}
                 </button>
             </div>
 
